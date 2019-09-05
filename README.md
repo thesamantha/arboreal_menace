@@ -1,12 +1,24 @@
-This is the code for the product developed by Samantha Webber, Alex Webber and Ottó Konyhai, under management and with financial direction from Olga Fuhrmann.
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Roles:
-Olga Fuhrmann - Manager, Financial Director, Operations Leader
-Alex Webber - Fullstack Developer
-Ottó Konyhai - Frontend Developer
-Samantha Webber - Product Leader, Backend Developer
+Things you may want to cover:
 
+* Ruby version
 
-Alex was here. 8/16/2019
-Otto too. :) 
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
