@@ -41,3 +41,45 @@ input[type="search"] {
 #starter:hover {
  cursor: pointer;
 }
+.filter-box {
+  border: 3px solid yellow;
+  border-radius: 20px;
+  max-width: 50em;
+  margin: auto;
+  display: block;
+  margin-top: 3em;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  background-color: orange;
+}
+h3 {
+  margin: auto;
+  max-width: 300px;
+  display: block;
+}
+#measure {
+  display: inline-block;
+}
+table {
+  width: 70%;
+  margin: auto;
+  margin-top: 5em;
+  border-collapse: none;
+}
+th {
+  font-size: 20px;
+  background-color: green;
+}
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+table {
+  border-radius: 30px;
+}
+td {
+  font-size: 18px;
+  background-color: #ff794d;
+}

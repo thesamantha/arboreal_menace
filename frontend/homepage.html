@@ -6,11 +6,54 @@
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body onload="measurement()">
     <h1>Doors</h1>
     <form class="" action="index.html" method="post" style="margin:auto;max-width:400px">
       <input type="search" name="soul" placeholder="Search..">
       <button  id="starter" type="submit"><i class="fa fa-search"></i></button>
     </form>
+    <div class="filter-box">
+      <h3>Search Filter</h3>
+      Place: <select class="city" name="city">
+        <option value="Budapest">Budapest</option>
+        <option value="London">London</option>
+        <option value="Jacksonville">Jacksonville</option>
+      </select>
+      Distance: <input id="distance"type="range" min="1" max="100"  name="Távolság:" value="15"><p id="measure"></p>
+    </div>
+    <table>
+      <tr>
+        <th>Logo</th>
+        <th>Field</th>
+        <th>Level</th>
+        <th>Location</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td><img src="doors.jpeg" alt="doors" width="100px" height="100px" style="border-radius:50%"></td>
+        <td>Database tester</td>
+        <td>Very high</td>
+        <td>Around the world</td>
+        <td>Part-time</td>
+      </tr>
+    </table>
   </body>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    var distance = document.getElementById("distance")
+    var measure = document.getElementById("measure")
+
+    distance.addEventListener("mousedown", measurement)
+    distance.addEventListener("mouseup", measurement)
+
+    function measurement() {
+      measure.innerHTML = distance.value + " km"
+    }
+  </script>
 </html>
