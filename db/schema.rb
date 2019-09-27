@@ -10,12 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_24_130747) do
+ActiveRecord::Schema.define(version: 2019_09_27_112607) do
 
   create_table "listings", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "title"
+    t.string "fields"
+    t.string "levels"
+    t.string "work_types"
+    t.string "locations"
+    t.string "shifts"
+    t.string "logo_loc"
+    t.string "logo_dsc"
   end
 
 end
