@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_27_112607) do
+ActiveRecord::Schema.define(version: 2019_09_29_132726) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,11 +19,11 @@ ActiveRecord::Schema.define(version: 2019_09_27_112607) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "title"
-    t.string "fields"
-    t.string "levels"
-    t.string "work_types"
-    t.string "locations"
-    t.string "shifts"
+    t.string "fields", default: [], array: true
+    t.string "levels", default: [], array: true
+    t.string "work_types", default: [], array: true
+    t.string "locations", default: [], array: true
+    t.string "shifts", default: [], array: true
     t.string "logo_loc"
     t.string "logo_dsc"
   end

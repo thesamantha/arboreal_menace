@@ -954,3 +954,34 @@ Completed 200 OK in 7684ms (Views: 0.9ms | ActiveRecord: 0.5ms)
   ↳ bin/rails:9
   [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (21.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to ChangeColumnstoArrays (20190929132726)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1776.2ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "fields" TYPE character varying[] USING (string_to_array(fields, ',')), ALTER COLUMN "fields" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:3
+  [1m[35m (244.4ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "levels" TYPE character varying[] USING (string_to_array(levels, ',')), ALTER COLUMN "levels" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:4
+  [1m[35m (309.6ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "work_types" TYPE character varying[] USING (string_to_array(work_types, ',')), ALTER COLUMN "work_types" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:5
+  [1m[35m (368.0ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "locations" TYPE character varying[] USING (string_to_array(locations, ',')), ALTER COLUMN "locations" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:6
+  [1m[35m (364.1ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "shifts" TYPE character varying[] USING (string_to_array(shifts, ',')), ALTER COLUMN "shifts" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:7
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190929132726"]]
+  ↳ bin/rails:9
+  [1m[35m (116.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
