@@ -1,0 +1,1552 @@
+Started GET "/listings/1" for ::1 at 2019-09-24 15:03:58 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/listings/1"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/listings" for ::1 at 2019-09-24 15:04:02 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/listings"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-24 15:04:09 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (11.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (17.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateListings (20190924130605)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "listings" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190924130605_create_listings.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190924130605"]]
+  ↳ bin/rails:9
+  [1m[35m (14.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddTitleToListings (20190924130747)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mALTER TABLE "listings" ADD "title" varchar[0m
+  ↳ db/migrate/20190924130747_add_title_to_listings.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190924130747"]]
+  ↳ bin/rails:9
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (2.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-24 13:08:27.594065"], ["updated_at", "2019-09-24 13:08:27.594065"]]
+  ↳ bin/rails:9
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mListing Create (13.3ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title") VALUES (?, ?, ?)[0m  [["created_at", "2019-09-24 13:09:06.953775"], ["updated_at", "2019-09-24 13:09:06.953775"], ["title", "Chemistry Research Position"]]
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/listings/1" for ::1 at 2019-09-24 15:09:34 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1636ms (Views: 1610.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/listings" for ::1 at 2019-09-24 15:09:38 +0200
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  ↳ app/views/listings/index.html.erb:13
+  Rendered listings/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 15:12:23 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:68
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.6ms)
+
+
+  
+NameError (uninitialized constant ListingsController::Lisitng):
+  
+app/controllers/listings_controller.rb:13:in `show'
+Started GET "/listings/1" for ::1 at 2019-09-24 15:12:38 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:68
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 389ms (Views: 363.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 15:12:55 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:68
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 15:41:41 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:69
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 372ms (Views: 343.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 15:52:00 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:73
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 15:52:29 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:73
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/listings_controller.rb:14:in `show'
+Started GET "/listings/1" for ::1 at 2019-09-24 15:53:07 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:76
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:13
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 29.0ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mListing Create (13.6ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title") VALUES (?, ?, ?)[0m  [["created_at", "2019-09-24 14:11:21.519317"], ["updated_at", "2019-09-24 14:11:21.519317"], ["title", "Data Mining Student Assistant"]]
+  [1m[35m (19.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/listings/" for ::1 at 2019-09-24 16:11:37 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end
+Started GET "/listings/" for ::1 at 2019-09-24 16:11:43 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end
+Started GET "/listings/1" for ::1 at 2019-09-24 16:12:08 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/listings_controller.rb:90: syntax error, unexpected end-of-input, expecting end
+Started GET "/listings/1" for ::1 at 2019-09-24 16:12:27 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:84: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/listings_controller.rb:84: syntax error, unexpected end-of-input, expecting end
+Started GET "/listings/1" for ::1 at 2019-09-24 16:12:39 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:84: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/listings_controller.rb:84: syntax error, unexpected end-of-input, expecting end
+Started GET "/listings/1" for ::1 at 2019-09-24 16:13:11 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 40.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/listings/1?accept=application/json" for ::1 at 2019-09-24 16:15:41 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"accept"=>"application/json", "id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 60.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:15:57 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:16:55 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:17:10 +0200
+Processing by ListingsController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/listings_controller.rb:19:in `show'
+Started GET "/listings/1" for ::1 at 2019-09-24 16:17:39 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:17:47 +0200
+Processing by ListingsController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+Completed 406 Not Acceptable in 14ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/listings_controller.rb:19:in `show'
+Started GET "/listings/1" for ::1 at 2019-09-24 16:17:55 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:18:22 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-24 16:18:41 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddFieldsToListing (20190927112607)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (2.3ms)[0m  [1m[35mALTER TABLE "listings" ADD "fields" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:3
+  [1m[35m (2.5ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddFieldsToListing (20190927112607)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "listings" ADD "fields" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "listings" ADD "levels" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "listings" ADD "work_types" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "listings" ADD "locations" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:6
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "listings" ADD "shifts" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "listings" ADD "logo_loc" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "listings" ADD "logo_dsc" varchar[0m
+  ↳ db/migrate/20190927112607_add_fields_to_listing.rb:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190927112607"]]
+  ↳ bin/rails:9
+  [1m[35m (16.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/listings/1" for ::1 at 2019-09-27 13:48:11 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.7ms)
+Completed 200 OK in 115ms (Views: 66.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-27 13:49:00 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.39ms)
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-27 13:59:14 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:81
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 276ms (Views: 273.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/1" for ::1 at 2019-09-27 13:59:38 +0200
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:74
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:18
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.43ms)
+Completed 200 OK in 17ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listings/" for ::1 at 2019-09-27 14:18:35 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#index as HTML
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  ↳ app/controllers/listings_controller.rb:8
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.54ms)
+Completed 200 OK in 53ms (Views: 40.8ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/listings/?title=HR%20Trainee&fields=Business&levels=Graduate&work_types=Internship&locations=Debrecen&shifts=Full&logo_loc=url&logo_desc=Connections_r_us_img" for ::1 at 2019-09-27 15:44:56 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_desc"=>"Connections_r_us_img"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (5.2.3) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.3) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.3) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/listings/?title=HR%20Trainee&fields=Business&levels=Graduate&work_types=Internship&locations=Debrecen&shifts=Full&logo_loc=url&logo_desc=Connections_r_us_img" for ::1 at 2019-09-27 15:48:00 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_desc"=>"Connections_r_us_img"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:33
+  [1m[36mListing Create (2.0ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-09-27 13:48:00.237305"], ["updated_at", "2019-09-27 13:48:00.237305"]]
+  ↳ app/controllers/listings_controller.rb:33
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:33
+Redirected to http://localhost:3000/listings/3
+Completed 302 Found in 44ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/listings/3" for ::1 at 2019-09-27 15:48:00 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:70
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:14
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.32ms)
+Completed 200 OK in 14ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 15:49:15 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:70
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+Redirected to http://localhost:3000/listings/3
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/3" for ::1 at 2019-09-27 15:49:15 +0200
+Processing by ListingsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:70
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:14
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.89ms)
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 15:56:37 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.1ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/listings_controller.rb:70:in `listing_params'
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 15:57:16 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/listings_controller.rb:70:in `listing_params'
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:00:35 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/listings_controller.rb:70:in `listing_params'
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:01:14 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 1.0ms)
+
+
+  
+NameError (undefined local variable or method `listing' for #<ListingsController:0x00007f6b5c89e350>
+Did you mean?  @listing):
+  
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:03:32 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.9ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 2.5ms)
+
+
+  
+NameError (undefined local variable or method `listing' for #<ListingsController:0x00007f6b5c8c1508>
+Did you mean?  listing_url):
+  
+app/controllers/listings_controller.rb:45:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:07:08 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 3.2ms)
+
+
+  
+NameError (undefined local variable or method `listing' for #<ListingsController:0x00007f6b5c94b258>
+Did you mean?  listing_url):
+  
+app/controllers/listings_controller.rb:45:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:08:36 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 2.4ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/listings_controller.rb:47:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:09:08 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 3.2ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/listings_controller.rb:47:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:09:54 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:66
+  [1m[36mCACHE Listing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 2.9ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:10:21 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+Completed 500 Internal Server Error in 209783ms (ActiveRecord: 2.4ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/listings_controller.rb:47:in `update'
+Started PUT "/listings/3/?title=%22HR%20Trainee%22&fields=%22Business%22&levels=%22Graduate&work_types=%22Internship%22&locations=%22Debrecen%22&shifts=%22Full%22&logo_loc=%22url%22&logo_desc=%22Connection_r_us_img%22" for ::1 at 2019-09-27 16:13:55 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"\"HR Trainee\"", "fields"=>"\"Business\"", "levels"=>"\"Graduate", "work_types"=>"\"Internship\"", "locations"=>"\"Debrecen\"", "shifts"=>"\"Full\"", "logo_loc"=>"\"url\"", "logo_desc"=>"\"Connection_r_us_img\"", "id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+Completed 500 Internal Server Error in 7211ms (ActiveRecord: 1.1ms)
+
+
+  
+NameError (undefined local variable or method `listing_params' for #<ListingsController:0x00007fffd89d1a18>
+Did you mean?  listing_param
+               listing_path):
+  
+app/controllers/listings_controller.rb:47:in `update'
+Started PUT "/listings/3/?title=HR%20Trainee&fields=Business&levels=Graduate&work_types=Internship&locations=Debrecen&shifts=Full&logo_loc=url&logo_desc=Connections_r_us_img" for ::1 at 2019-09-27 16:14:40 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_desc"=>"Connections_r_us_img", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.39ms)
+Completed 200 OK in 13716ms (Views: 7.4ms | ActiveRecord: 1.9ms)
+
+
+Started PUT "/listings/3/?title=HR%20Trainee&fields=Business&levels=Graduate&work_types=Internship&locations=Debrecen&shifts=Full&logo_loc=url&logo_desc=Connections_r_us_img" for ::1 at 2019-09-27 16:15:11 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_desc"=>"Connections_r_us_img", "id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.19ms)
+Completed 200 OK in 39634ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/listings/3/?title=HR%20Trainee&fields=Business&levels=Graduate&work_types=Internship&locations=Debrecen&shifts=Full&logo_loc=url&logo_desc=Connections_r_us_img" for ::1 at 2019-09-27 16:16:05 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_desc"=>"Connections_r_us_img", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.28ms)
+Completed 200 OK in 75556ms (Views: 9.4ms | ActiveRecord: 1.3ms)
+
+
+Started PUT "/listings/3/" for ::1 at 2019-09-27 16:19:19 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>", "listing"=>{"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>"}}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/listings_controller.rb:46
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/listings_controller.rb:46:in `update'
+Started PUT "/listings/3/" for ::1 at 2019-09-27 16:19:59 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>", "listing"=>{"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>"}}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+Completed 500 Internal Server Error in 383073ms (ActiveRecord: 1.7ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/listings_controller.rb:47:in `update'
+Started PUT "/listings/3/" for ::1 at 2019-09-27 16:31:01 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>", "listing"=>{"id"=>"3", "title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>"}}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+Unpermitted parameter: :id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[36mListing Update (10.0ms)[0m  [1m[33mUPDATE "listings" SET "title" = ?, "fields" = ?, "levels" = ?, "work_types" = ?, "locations" = ?, "shifts" = ?, "logo_loc" = ?, "logo_dsc" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["title", "HR Trainee"], ["fields", "Business"], ["levels", "Graduate"], ["work_types", "Internship"], ["locations", "Debrecen"], ["shifts", "Full"], ["logo_loc", "url"], ["logo_dsc", "<epam>"], ["updated_at", "2019-09-27 14:31:12.673384"], ["id", 3]]
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 11228ms (Views: 5.3ms | ActiveRecord: 27.4ms)
+
+
+Started PUT "/listings/3/" for ::1 at 2019-09-27 16:31:44 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>", "id"=>"3", "listing"=>{"title"=>"HR Trainee", "fields"=>"Business", "levels"=>"Graduate", "work_types"=>"Internship", "locations"=>"Debrecen", "shifts"=>"Full", "logo_loc"=>"url", "logo_dsc"=>"<epam>"}}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:67
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/listings_controller.rb:47
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.22ms)
+Completed 200 OK in 7684ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (8782.3ms)[0m  [1m[35mCREATE DATABASE "portal_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (2773.4ms)[0m  [1m[35mCREATE DATABASE "portal_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (171.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "listings" CASCADE[0m
+  ↳ db/schema.rb:15
+  [1m[35m (473.5ms)[0m  [1m[35mCREATE TABLE "listings" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "title" character varying, "fields" character varying, "levels" character varying, "work_types" character varying, "locations" character varying, "shifts" character varying, "logo_loc" character varying, "logo_dsc" character varying)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (387.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (136.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190927112607)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (60.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190924130605),
+(20190924130747);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1010.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (1.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-29 13:07:43.074973"], ["updated_at", "2019-09-29 13:07:43.074973"]]
+  ↳ db/schema.rb:13
+  [1m[35m (29.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "listings" CASCADE[0m
+  ↳ db/schema.rb:15
+  [1m[35m (432.2ms)[0m  [1m[35mCREATE TABLE "listings" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "title" character varying, "fields" character varying, "levels" character varying, "work_types" character varying, "locations" character varying, "shifts" character varying, "logo_loc" character varying, "logo_dsc" character varying)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (174.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (28.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190927112607)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (44.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190924130605),
+(20190924130747);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (196.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (1.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-29 13:07:44.106072"], ["updated_at", "2019-09-29 13:07:44.106072"]]
+  ↳ db/schema.rb:13
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (1.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-09-29 13:07:44.138202"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (43.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (21.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to ChangeColumnstoArrays (20190929132726)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1776.2ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "fields" TYPE character varying[] USING (string_to_array(fields, ',')), ALTER COLUMN "fields" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:3
+  [1m[35m (244.4ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "levels" TYPE character varying[] USING (string_to_array(levels, ',')), ALTER COLUMN "levels" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:4
+  [1m[35m (309.6ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "work_types" TYPE character varying[] USING (string_to_array(work_types, ',')), ALTER COLUMN "work_types" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:5
+  [1m[35m (368.0ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "locations" TYPE character varying[] USING (string_to_array(locations, ',')), ALTER COLUMN "locations" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:6
+  [1m[35m (364.1ms)[0m  [1m[35mALTER TABLE "listings" ALTER COLUMN "shifts" TYPE character varying[] USING (string_to_array(shifts, ',')), ALTER COLUMN "shifts" SET DEFAULT '{}'[0m
+  ↳ db/migrate/20190929132726_change_columnsto_arrays.rb:7
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190929132726"]]
+  ↳ bin/rails:9
+  [1m[35m (116.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(6057968071353077250)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started POST "/listings" for ::1 at 2019-09-30 10:36:36 +0200
+  
+PG::ConnectionBad (FATAL:  password authentication failed for user "portal"
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (913.1ms)[0m  [1m[35mCREATE DATABASE "portal_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (1005.9ms)[0m  [1m[35mCREATE DATABASE "portal_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (1.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "listings" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (27.2ms)[0m  [1m[35mCREATE TABLE "listings" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "title" character varying, "fields" character varying[] DEFAULT '{}', "levels" character varying[] DEFAULT '{}', "work_types" character varying[] DEFAULT '{}', "locations" character varying[] DEFAULT '{}', "shifts" character varying[] DEFAULT '{}', "logo_loc" character varying, "logo_dsc" character varying)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (14.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190929132726)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190924130605),
+(20190924130747),
+(20190927112607);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-30 09:31:43.094375"], ["updated_at", "2019-09-30 09:31:43.094375"]]
+  ↳ db/schema.rb:13
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (1.0ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "listings" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (27.2ms)[0m  [1m[35mCREATE TABLE "listings" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "title" character varying, "fields" character varying[] DEFAULT '{}', "levels" character varying[] DEFAULT '{}', "work_types" character varying[] DEFAULT '{}', "locations" character varying[] DEFAULT '{}', "shifts" character varying[] DEFAULT '{}', "logo_loc" character varying, "logo_dsc" character varying)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (16.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190929132726)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20190924130605),
+(20190924130747),
+(20190927112607);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (16.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-09-30 09:31:43.241594"], ["updated_at", "2019-09-30 09:31:43.241594"]]
+  ↳ db/schema.rb:13
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-09-30 09:31:43.247589"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started POST "/listings" for ::1 at 2019-09-30 12:57:39 +0200
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (2.5ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-09-30 10:57:39.469814"], ["updated_at", "2019-09-30 10:57:39.469814"], ["title", "Student Lab Assistant"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (2.8ms)
+  Rendered listings/show.json.jbuilder (4.2ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 18.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: json.extract! listing, :id, :created_at, :updated_at
+    2: json.url listing_url(listing, format: :json)
+  
+app/views/listings/_listing.json.jbuilder:1:in `_app_views_listings__listing_json_jbuilder___4043588826320542783_70368379066240'
+app/views/listings/show.json.jbuilder:1:in `_app_views_listings_show_json_jbuilder__4263304869097286146_70368378825720'
+app/controllers/listings_controller.rb:33:in `block (2 levels) in create'
+app/controllers/listings_controller.rb:31:in `create'
+Started POST "/listings" for ::1 at 2019-09-30 13:25:11 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (4.0ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-09-30 11:25:11.315896"], ["updated_at", "2019-09-30 11:25:11.315896"], ["title", "Student Lab Assistant"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.6ms)
+  Rendered listings/show.json.jbuilder (4.8ms)
+Completed 201 Created in 61ms (Views: 20.8ms | ActiveRecord: 24.0ms)
+
+
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mListing Load (1.7ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mListing Destroy (10.2ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 1]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mListing Destroy (0.7ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 2]]
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/listings" for ::1 at 2019-09-30 13:26:48 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (0.6ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-09-30 11:26:48.914273"], ["updated_at", "2019-09-30 11:26:48.914273"], ["title", "Student Lab Assistant"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.6ms)
+  Rendered listings/show.json.jbuilder (2.5ms)
+Completed 201 Created in 24ms (Views: 11.3ms | ActiveRecord: 5.5ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 13:27:03 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>"Physics", "levels"=>"Undergraduate", "work_types"=>"Student", "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (2.7ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-09-30 11:32:00.917393"], ["updated_at", "2019-09-30 11:32:00.917393"], ["title", "Student Lab Assistant"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (11.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (1.3ms)
+  Rendered listings/show.json.jbuilder (4.8ms)
+Completed 201 Created in 297204ms (Views: 15.6ms | ActiveRecord: 19.6ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 13:32:03 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+Unpermitted parameters: :fields, :levels, :work_types
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (1.2ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-09-30 11:34:18.515877"], ["updated_at", "2019-09-30 11:34:18.515877"], ["title", "Student Lab Assistant"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (17.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.8ms)
+  Rendered listings/show.json.jbuilder (2.8ms)
+Completed 201 Created in 134742ms (Views: 9.6ms | ActiveRecord: 19.5ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 13:34:27 +0200
+  
+SyntaxError (/mnt/c/code/arboreal_menace/app/controllers/listings_controller.rb:70: syntax error, unexpected ',', expecting =>
+...ons: [], shifts: [], :logo_loc, :logo_dsc)
+...                              ^):
+  
+app/controllers/listings_controller.rb:70: syntax error, unexpected ',', expecting =>
+Started POST "/listings" for ::1 at 2019-09-30 13:38:33 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>"Kent", "shifts"=>"Part", "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+Unpermitted parameters: :locations, :shifts
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (0.8ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "fields", "levels", "work_types", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", "2019-09-30 11:38:44.134548"], ["updated_at", "2019-09-30 11:38:44.134548"], ["title", "Student Lab Assistant"], ["fields", "{Physics,\"Mechanical Engineering\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,\"Part-time Job\"}"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (14.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.9ms)
+  Rendered listings/show.json.jbuilder (3.5ms)
+Completed 201 Created in 10535ms (Views: 9.8ms | ActiveRecord: 22.0ms)
+
+
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "/listings" for ::1 at 2019-09-30 13:41:08 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>["Kent"], "shifts"=>["Part"], "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>["Kent"], "shifts"=>["Part"], "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[36mListing Create (0.6ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "fields", "levels", "work_types", "locations", "shifts", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["created_at", "2019-09-30 11:41:10.551642"], ["updated_at", "2019-09-30 11:41:10.551642"], ["title", "Student Lab Assistant"], ["fields", "{Physics,\"Mechanical Engineering\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,\"Part-time Job\"}"], ["locations", "{Kent}"], ["shifts", "{Part}"], ["logo_loc", "url"], ["logo_dsc", "University of Kent Logo"]]
+  ↳ app/controllers/listings_controller.rb:32
+  [1m[35m (13.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:32
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.3ms)
+  Rendered listings/show.json.jbuilder (1.4ms)
+Completed 201 Created in 2332ms (Views: 4.8ms | ActiveRecord: 14.4ms)
+
+
+  [1m[36mListing Load (1.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/listings" for ::1 at 2019-09-30 13:44:46 +0200
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#index as */*
+  [1m[36mListing Load (1.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  ↳ app/controllers/listings_controller.rb:8
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.5ms)
+Completed 200 OK in 158ms (Views: 136.7ms | ActiveRecord: 11.9ms)
+
+
+Started PUT "/listings/1" for ::1 at 2019-09-30 13:51:35 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (1.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:65
+Completed 404 Not Found in 41ms (ActiveRecord: 2.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Listing with 'id'=1):
+  
+app/controllers/listings_controller.rb:65:in `set_listing'
+  [1m[36mListing Load (1.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started PUT "/listings/3" for ::1 at 2019-09-30 13:52:16 +0200
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/thesamantha/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:65
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:43
+Completed 400 Bad Request in 6282ms (ActiveRecord: 12.7ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: listing):
+  
+app/controllers/listings_controller.rb:70:in `listing_params'
+app/controllers/listings_controller.rb:45:in `update'
+Started PUT "/listings/3" for ::1 at 2019-09-30 13:54:01 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:62
+  [1m[36mCACHE Listing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:41
+Completed 400 Bad Request in 35ms (ActiveRecord: 5.6ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: listing):
+  
+app/controllers/listings_controller.rb:67:in `listing_params'
+app/controllers/listings_controller.rb:42:in `update'
+Started PUT "/listings/3" for ::1 at 2019-09-30 13:55:08 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (3.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:63
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:41
+Completed 400 Bad Request in 33702ms (ActiveRecord: 17.8ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: listing):
+  
+app/controllers/listings_controller.rb:68:in `listing_params'
+app/controllers/listings_controller.rb:43:in `update'
+Started PUT "/listings/3" for ::1 at 2019-09-30 13:56:14 +0200
+Processing by ListingsController#update as */*
+  Parameters: {"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>["Kent"], "shifts"=>["Part"], "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo", "id"=>"3", "listing"=>{"title"=>"Student Lab Assistant", "fields"=>["Physics", "Mechanical Engineering"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Part-time Job"], "locations"=>["Kent"], "shifts"=>["Part"], "logo_loc"=>"url", "logo_dsc"=>"University of Kent Logo"}}
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:63
+  [1m[36mCACHE Listing Load (0.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:41
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:43
+  [1m[36mListing Update (1.1ms)[0m  [1m[33mUPDATE "listings" SET "fields" = $1, "levels" = $2, "work_types" = $3, "locations" = $4, "shifts" = $5, "updated_at" = $6 WHERE "listings"."id" = $7[0m  [["fields", "{Physics,\"Mechanical Engineering\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,\"Part-time Job\"}"], ["locations", "{Kent}"], ["shifts", "{Part}"], ["updated_at", "2019-09-30 11:56:30.043055"], ["id", 3]]
+  ↳ app/controllers/listings_controller.rb:43
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:43
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.41ms)
+Completed 200 OK in 15218ms (Views: 10.4ms | ActiveRecord: 6.6ms)
+
+
+  [1m[36mListing Load (1.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" LIMIT $1[0m  [["LIMIT", 11]]
+Started DELETE "/listings/4" for ::1 at 2019-09-30 14:10:04 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:63
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[36mListing Destroy (1.1ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:53
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 42ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/listings" for ::1 at 2019-09-30 14:10:04 +0200
+Processing by ListingsController#index as */*
+  [1m[36mListing Load (0.9ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  ↳ app/controllers/listings_controller.rb:8
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.73ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mListing Load (1.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" LIMIT $1[0m  [["LIMIT", 11]]
+Started DELETE "/listings/4" for ::1 at 2019-09-30 14:10:55 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:63
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Listing with 'id'=4):
+  
+app/controllers/listings_controller.rb:63:in `set_listing'
+Started DELETE "/listings/5" for ::1 at 2019-09-30 14:13:36 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:62
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[36mListing Destroy (1.8ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:53
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Symbol (0.09ms)
+Completed 200 OK in 56ms (Views: 27.1ms | ActiveRecord: 12.8ms)
+
+
+Started DELETE "/listings/6" for ::1 at 2019-09-30 14:14:14 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:60
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[36mListing Destroy (0.9ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/listings_controller.rb:53
+  [1m[35m (12.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:53
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Symbol (1.12ms)
+Completed 200 OK in 97ms (Views: 30.8ms | ActiveRecord: 21.5ms)
+
+
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" LIMIT $1[0m  [["LIMIT", 11]]
+Started POST "/listings" for ::1 at 2019-09-30 14:27:06 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo", "listing"=>{"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 12.2ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/listings_controller.rb:21:in `block in create'
+app/controllers/listings_controller.rb:20:in `create'
+Started POST "/listings" for ::1 at 2019-09-30 14:27:37 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo", "listing"=>{"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo"}}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[36mListing Create (8.0ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-09-30 12:27:37.805025"], ["updated_at", "2019-09-30 12:27:37.805025"]]
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:22
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (0.7ms)
+  Rendered listings/show.json.jbuilder (2.7ms)
+Completed 201 Created in 64ms (Views: 14.5ms | ActiveRecord: 22.7ms)
+
+
+Started DELETE "/listings/8" for ::1 at 2019-09-30 14:28:03 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mListing Load (2.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:52
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[36mListing Destroy (1.2ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:45
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Symbol (0.07ms)
+Completed 200 OK in 60ms (Views: 17.6ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 14:34:55 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo", "listing"=>{"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[36mListing Create (1.7ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "fields", "levels", "work_types", "locations", "shifts", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["created_at", "2019-09-30 12:34:55.393987"], ["updated_at", "2019-09-30 12:34:55.393987"], ["title", "Cheerio Eater"], ["fields", "{\"Electrical Engineering\",\"Computer Science\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,Research}"], ["locations", "{Warwick}"], ["shifts", "{Full}"], ["logo_loc", "url"], ["logo_dsc", "University of Warwick Logo"]]
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:22
+  Rendering listings/show.json.jbuilder
+  Rendered listings/_listing.json.jbuilder (1.7ms)
+  Rendered listings/show.json.jbuilder (5.4ms)
+Completed 201 Created in 55ms (Views: 13.8ms | ActiveRecord: 28.4ms)
+
+
+  [1m[36mListing Load (1.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Started DELETE "/listings/9" for ::1 at 2019-09-30 14:37:38 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mListing Load (2.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:52
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[36mListing Destroy (1.2ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/listings_controller.rb:45
+  [1m[35m (13.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:45
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Symbol (0.17ms)
+Completed 200 OK in 125ms (Views: 46.2ms | ActiveRecord: 30.9ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 14:37:45 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo", "listing"=>{"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[36mListing Create (1.4ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "fields", "levels", "work_types", "locations", "shifts", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["created_at", "2019-09-30 12:37:45.417491"], ["updated_at", "2019-09-30 12:37:45.417491"], ["title", "Cheerio Eater"], ["fields", "{\"Electrical Engineering\",\"Computer Science\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,Research}"], ["locations", "{Warwick}"], ["shifts", "{Full}"], ["logo_loc", "url"], ["logo_dsc", "University of Warwick Logo"]]
+  ↳ app/controllers/listings_controller.rb:22
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:22
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.63ms)
+Completed 406 Not Acceptable in 21ms (Views: 3.7ms | ActiveRecord: 7.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/listings_controller.rb:21:in `create'
+  [1m[36mListing Load (0.7ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mListing Load (0.9ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mListing Load (1.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started DELETE "/listings/10" for ::1 at 2019-09-30 14:40:00 +0200
+Processing by ListingsController#destroy as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:50
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:43
+  [1m[36mListing Destroy (1.7ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/listings_controller.rb:43
+  [1m[35m (9.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:43
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Symbol (0.12ms)
+Completed 200 OK in 45ms (Views: 8.8ms | ActiveRecord: 16.1ms)
+
+
+Started POST "/listings" for ::1 at 2019-09-30 14:40:06 +0200
+Processing by ListingsController#create as */*
+  Parameters: {"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo", "listing"=>{"title"=>"Cheerio Eater", "fields"=>["Electrical Engineering", "Computer Science"], "levels"=>["Undergraduate", "Graduate"], "work_types"=>["Internship", "Research"], "locations"=>["Warwick"], "shifts"=>["Full"], "logo_loc"=>"url", "logo_dsc"=>"University of Warwick Logo"}}
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/listings_controller.rb:21
+  [1m[36mListing Create (9.0ms)[0m  [1m[32mINSERT INTO "listings" ("created_at", "updated_at", "title", "fields", "levels", "work_types", "locations", "shifts", "logo_loc", "logo_dsc") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["created_at", "2019-09-30 12:40:06.682697"], ["updated_at", "2019-09-30 12:40:06.682697"], ["title", "Cheerio Eater"], ["fields", "{\"Electrical Engineering\",\"Computer Science\"}"], ["levels", "{Undergraduate,Graduate}"], ["work_types", "{Internship,Research}"], ["locations", "{Warwick}"], ["shifts", "{Full}"], ["logo_loc", "url"], ["logo_dsc", "University of Warwick Logo"]]
+  ↳ app/controllers/listings_controller.rb:21
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/listings_controller.rb:21
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.92ms)
+Completed 201 Created in 35ms (Views: 4.5ms | ActiveRecord: 17.8ms)
+
+
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" ORDER BY "listings"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/listings/1" for ::1 at 2019-09-30 14:40:36 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.9ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:50
+Completed 404 Not Found in 7ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Listing with 'id'=1):
+  
+app/controllers/listings_controller.rb:50:in `set_listing'
+Started GET "/listings/3" for ::1 at 2019-09-30 14:40:45 +0200
+Processing by ListingsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (1.0ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/listings_controller.rb:50
+[active_model_serializers] Rendered ListingSerializer with ActiveModelSerializers::Adapter::Attributes (0.54ms)
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 1.0ms)
+
+

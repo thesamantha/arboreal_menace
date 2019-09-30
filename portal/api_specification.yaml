@@ -1,0 +1,233 @@
+swagger: "2.0"
+info:
+  description: "This is the specification for the API of the Doors job portal."
+  version: "1.0.0"
+  title: "Doors Portal"
+  termsOfService: ""
+  contact:
+    email: "samantha.webber@protonmail.com"
+host: "localhost:3000"
+basePath: "/v1"
+tags:
+- name: "listing"
+  description: "Retrieval, manipulation, and production of Listings"
+schemes:
+- "http"
+paths:
+  /listing:
+    post:
+      tags:
+      - "listing"
+      summary: "Add a new Listing to Portal"
+      description: ""
+      operationId: "addListing"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Listing object to be added"
+        required: true
+        schema:
+          $ref: "#/definitions/Listing"
+      responses:
+        200:
+          description: "Successfully created listing"
+        405:
+          description: "Invalid input"
+    put:
+      tags:
+      - "listing"
+      summary: "Update an existing listing"
+      description: ""
+      operationId: "updateListing"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Listing to be updated"
+        required: true
+        schema:
+          $ref: "#/definitions/Listing"
+      responses:
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Listing not found"
+        405:
+          description: "Invalid input"
+  /listing/findByTags:
+    get:
+      tags:
+      - "listing"
+      summary: "Finds Listings by tags"
+      description: "Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing."
+      operationId: "findListingsByTags"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "tags"
+        in: "query"
+        description: "Tags to filter by"
+        required: true
+        type: "array"
+        items:
+          type: "string"
+        collectionFormat: "multi"
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Listing"
+        400:
+          description: "Invalid tag value"
+  /listing/{listingId}:
+    get:
+      tags:
+      - "listing"
+      summary: "Retrieve listing by ID"
+      description: "Returns a single listing"
+      operationId: "getListingById"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "listingId"
+        in: "path"
+        description: "ID of listing to return"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Listing"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Listing not found"
+    post:
+      tags:
+      - "listing"
+      summary: "Updates a listing in the store with form data"
+      description: ""
+      operationId: "updateListingWithForm"
+      consumes:
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "listingId"
+        in: "path"
+        description: "ID of listing to be updated"
+        required: true
+        type: "integer"
+        format: "int64"
+      - name: "title"
+        in: "formData"
+        description: "Updated title of the listing"
+        required: false
+        type: "string"
+      - name: "status"
+        in: "formData"
+        description: "Updated status of the listing"
+        required: false
+        type: "string"
+      responses:
+        405:
+          description: "Invalid input"
+    delete:
+      tags:
+      - "listing"
+      summary: "Destroys a listing"
+      description: ""
+      operationId: "deleteListing"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "listingId"
+        in: "path"
+        description: "Listing id to delete"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Listing not found"
+ 
+#######################################################################
+#                                 Definitions                         #
+#######################################################################
+    
+definitions:
+  Listing:
+    type: "object"
+    required:
+    - "title"
+    - "fields"
+    - "level"
+    - "work_type"
+    - "locations"
+    - "time"
+    - "logo"
+    - "logo_desc"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      title:
+        type: "string"
+        example: "Chemistry Research Student Assistant"
+      fields:
+        type: "array"
+        items:
+          type: "string"
+          example: "chemistry"
+      level:
+        type: "string"
+        example: "undergraduate"
+      work_types:
+        type: "array"
+        items:
+          type: "string"
+          example: "research"
+      locations:
+        type: "array"
+        items:
+          type: "string"
+          example: "Szeged"
+      time:
+        type: "string"
+        example: "40"
+      logo:
+        type: "object"
+        example: "szeged.jpeg"
+      logo_desc:
+        type: "string"
+        example: "szeged.jpeg"
+      status:
+        type: "string"
+        description: "listing status in the database"
+        enum:
+        - "open"
+        - "interviewing"
+        - "fulfilled"
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      type:
+        type: "string"
+      message:
+        type: "string"
