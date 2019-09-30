@@ -26,15 +26,13 @@ class ListingsController < ApplicationController
   # POST /listings
   # POST /listings.json
   def create
-    listing = Listing.new(listing_params)
-
+    @listing = Listing.new(listing_params)
+    binding.irb
     respond_to do |format|
-      if listing.save
-        format.html { redirect_to listing, notice: 'Listing was successfully created.' }
-        format.json { render :show, status: :created, location: listing }
+      if @listing.save
+        format.json { render :show, status: :created, location: @listing }
       else
-        format.html { render :new }
-        format.json { render json: listing.errors, status: :unprocessable_entity }
+        format.json { render json: @listing.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -44,7 +42,7 @@ class ListingsController < ApplicationController
   def update
     listing = Listing.find(params[:id])
     binding.irb
-    if listing.update(listing_param)
+    if listing.update(listing_params)
       render json: listing
     else
       render json: listing.errors
@@ -68,7 +66,7 @@ class ListingsController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def listing_param
-      params.require(:listing).permit(:title, :fields, :levels, :work_types, :locations, :shifts, :logo_loc, :logo_dsc)
+    def listing_params
+      params.require(:listing).permit(:title,  :logo_loc, :logo_dsc, fields: [], levels: [], work_types: [], locations: [], shifts: [])
     end
 end
