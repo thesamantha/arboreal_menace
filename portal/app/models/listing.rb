@@ -3,4 +3,6 @@ class Listing < ApplicationRecord
   LEVELS      = %w[ Bachelor Master Doctorate ].freeze
   WORK_TYPES  = %w[ Internship Student_assistant Research Thesis Part_time ].freeze
   SALARY_OCCS = %w[ Hour Day Week Month  ].freeze
+
+  validates :fields 
 end
