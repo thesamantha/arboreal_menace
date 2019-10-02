@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_29_132726) do
+ActiveRecord::Schema.define(version: 2019_10_02_084444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(version: 2019_09_29_132726) do
     t.string "shifts", default: [], array: true
     t.string "logo_loc"
     t.string "logo_dsc"
+    t.integer "salary_min"
+    t.integer "salary_max"
+    t.string "salary_occ"
   end
 
 end
